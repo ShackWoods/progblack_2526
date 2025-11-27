@@ -4,6 +4,7 @@
   "description": "Songs sung by a bald man",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "s.p.bradley@durham.ac.uk",
