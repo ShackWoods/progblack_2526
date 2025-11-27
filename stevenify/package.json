@@ -1,0 +1,14 @@
+{
+  "name": "stevenify",
+  "version": "1.0.0",
+  "description": "Songs sung by a bald man",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "s.p.bradley@durham.ac.uk",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
