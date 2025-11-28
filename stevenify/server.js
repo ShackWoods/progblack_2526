@@ -1,6 +1,9 @@
 const express = require('express')
 const app = express()
 
+let songs = [ 'mr cellophane', 'john ball', 'jack frost', 'hold me now'];
+
+
 app.use(express.static('client'));
 
 app.get('/random/:max', function(req, resp){
@@ -16,5 +19,9 @@ app.get('/r', function(req, resp){
   console.log('Max via query is ' + max + ' rand is ' + rand)
   resp.send('' + rand)
 })
+
+app.get('/list', function (req, resp){
+    resp.send(songs);
+});
 
 app.listen(8090)
